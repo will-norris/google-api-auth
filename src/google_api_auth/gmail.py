@@ -4,7 +4,7 @@ from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 
-from google_token_auth.setup_logging import setup_logger
+from google_api_auth.setup_logging import setup_logger
 
 LOGGER = setup_logger('gmail_token_auth')
 
