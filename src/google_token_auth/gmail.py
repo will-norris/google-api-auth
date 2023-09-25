@@ -34,6 +34,5 @@ def get_token(creds_dir, scopes):
         with open(token_file_path, 'w') as token:
             token.write(creds.to_json())
             LOGGER.info('Refreshed credentials')
-            exit()
     return creds
 
